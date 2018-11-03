@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PHP Syntax</title>
+    <style>
+        body{font-family: verdana}
+        .phpcoding{width: 900px; margin: 0 auto; background: #ddd; min-height: 400px;}
+        .headeroption, .footeroption{background: #444; color: #fc8c41; text-align: center; padding: 20px;}
+        .headeroption h2, .footeroption h2{margin: 0;}
+		.footeroption h2 a{color: #FC8C41; text-decoration: none;}
+		.footeroption h2 a:hover{color: #F8B546}
+        .maincontent{min-height: 300px; padding: 20px;}
+        .para{height: 100%; width: 800px; background: #fff; border: 1ps solid #999; padding: 15px; margin-top: 10px; position: relative;}
+        .inside{position: absolute; height: 200px; width: 200px; background: #ddd; border: 1px solid #999; padding: 5px; border-radius: 50%;}
+        .text{padding: 10px; border: 1px solid #999; border-radius: 5px;}
+        .bg{background: #000; color: #fff;}
+        .error_form{color:red;}
+        #gotoup{background: url('img/down-512.png')no-repeat scroll 0 0; bottom: 10px; right: 10px; position: fixed;width: 50px; height: 50px; cursor: pointer;}
+    </style>
+    <link rel="stylesheet" href="js/jquery-ui.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</head>
+<body>
+
+<section class="phpcoding">
+<section class="headeroption">
+    <h2>DEMO Station</h2>
+</section>
+<section class="maincontent">
+
+
+<div class="para">
+
+
+<script>
+
+$(document).ready(function(){
+    $("#tabs").tabs();
+});
+</script>
+ 
+
+<div id="tabs">
+    <ul>
+        <li><a href="#one">Facebook</a></li>
+        <li><a href="#two">Twitter</a></li>
+        <li><a href="#three">LinkedIn</a></li>
+    </ul>
+    <div id="one">
+        <h2>Facebook.com</h2>
+        <p>Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California. Its website was launched on February 4, 2004, by Mark Zuckerberg, along with fellow Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes</p>
+    </div>
+    <div id="two">
+        <h2>Twitter.com</h2>
+        <p>Twitter is an American online news and social networking service on which users post and interact with messages known as "tweets". Tweets were originally restricted to 140 characters, but on November 7, 2017, this limit was doubled for all languages except Chinese, Japanese, and Korean.</p>
+    </div>
+    <div id="three">
+        <h2>LinkedIn.com</h2>
+        <p>LinkedIn is a business and employment-oriented service that operates via websites and mobile apps. Founded on December 28, 2002, and launched on May 5, 2003, it is mainly used for professional networking, including employers posting jobs and job seekers posting their CVs.</p> 
+    </div>
+</div>
+
+
+
+</div>
+
+</section>
+<section class="footeroption">
+    <h2><a href="https://www.promahmudul.com" target="_blank">www.promahmudul.com</a></h2>
+</section>
+</section>  
+  
+</body>
+</html>
